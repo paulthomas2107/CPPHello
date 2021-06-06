@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		445E44CD266D198C0081FD59 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445E44CC266D198C0081FD59 /* main.cpp */; };
 		445E44D4266D19F10081FD59 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445E44D3266D19F10081FD59 /* Log.cpp */; };
+		445E44D6266D20250081FD59 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445E44D5266D20250081FD59 /* Math.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,10 @@
 		445E44C9266D198C0081FD59 /* CPPHello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPHello; sourceTree = BUILT_PRODUCTS_DIR; };
 		445E44CC266D198C0081FD59 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		445E44D3266D19F10081FD59 /* Log.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		445E44D5266D20250081FD59 /* Math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
+		445E44D7266D20E10081FD59 /* EndBrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndBrace.h; sourceTree = "<group>"; };
+		445E44D8266D33560081FD59 /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		445E44D9266D39A60081FD59 /* Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +64,12 @@
 		445E44CB266D198C0081FD59 /* CPPHello */ = {
 			isa = PBXGroup;
 			children = (
+				445E44D9266D39A60081FD59 /* Math.h */,
 				445E44CC266D198C0081FD59 /* main.cpp */,
 				445E44D3266D19F10081FD59 /* Log.cpp */,
+				445E44D5266D20250081FD59 /* Math.cpp */,
+				445E44D7266D20E10081FD59 /* EndBrace.h */,
+				445E44D8266D33560081FD59 /* Log.h */,
 			);
 			path = CPPHello;
 			sourceTree = "<group>";
@@ -121,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445E44D6266D20250081FD59 /* Math.cpp in Sources */,
 				445E44D4266D19F10081FD59 /* Log.cpp in Sources */,
 				445E44CD266D198C0081FD59 /* main.cpp in Sources */,
 			);

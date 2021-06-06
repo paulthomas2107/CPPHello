@@ -1,8 +1,14 @@
 #include <iostream>
-
-void Log(const char* message);
+#include "Log.h"
+#include "Math.h"
+#include <sstream>
 
 int main() {
-    Log("Hello Paulie");
+    
+    Log("Start....");;
+    Log((std::ostringstream() << Multiply(12, 13)).str());
+    Log("Ended....");
+    
     return 0;
+    
 }
